@@ -20,5 +20,4 @@ if ($res === TRUE) {
 } else {
  echo "failed! \n";
 }
-
  ?>
