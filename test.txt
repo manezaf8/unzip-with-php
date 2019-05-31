@@ -1,0 +1,17 @@
+Keep in mind that PHP may be accessing the file as the user id that the
+ web server runs as (often 'nobody'). Safe mode
+ limitations are not taken into account before PHP 5.1.5.
+
+  PHP Warning:  Missing argument 1 for Test::__construct(), called in /home/ntabethemba/Downloads/index.php on line 86 and defined in /home/ntabethemba/Downloads/index.php on line 32
+ PHP Stack trace:
+ PHP   1. {main}() /home/ntabethemba/Downloads/index.php:0
+ PHP   2. Test->__construct() /home/ntabethemba/Downloads/index.php:86
+ PHP Warning:  Missing argument 2 for Test::__construct(), called in /home/ntabethemba/Downloads/index.php on line 86 and defined in /home/ntabethemba/Downloads/index.php on line 32
+ PHP Stack trace:
+ PHP   1. {main}() /home/ntabethemba/Downloads/index.php:0
+ PHP   2. Test->__construct() /home/ntabethemba/Downloads/index.php:86
+ PHP Notice:  Undefined variable: results in /home/ntabethemba/Downloads/index.php on line 87
+ PHP Stack trace:
+ PHP   1. {main}() /home/ntabethemba/Downloads/index.php:0
+ The file you looking for is readable
+ we all know that Maneza was born in 1988
