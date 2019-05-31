@@ -21,7 +21,4 @@ if ($res === TRUE) {
  echo "failed! \n";
 }
 
-
-
-
  ?>
